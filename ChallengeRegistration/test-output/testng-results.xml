@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29674" started-at="2018-01-12T23:31:35Z" finished-at="2018-01-12T23:32:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29674" started-at="2018-01-12T23:31:35Z" finished-at="2018-01-12T23:32:05Z">
+      <class name="newpackage.Onboarding">
+        <test-method status="PASS" signature="Setup()[pri:1, instance:newpackage.Onboarding@4c70fda8]" name="Setup" duration-ms="2734" started-at="2018-01-12T18:31:35Z" finished-at="2018-01-12T18:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1005" started-at="2018-01-12T18:31:38Z" finished-at="2018-01-12T18:31:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="fname()[pri:2, instance:newpackage.Onboarding@4c70fda8]" name="fname" duration-ms="117" started-at="2018-01-12T18:31:39Z" finished-at="2018-01-12T18:31:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fname -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1005" started-at="2018-01-12T18:31:39Z" finished-at="2018-01-12T18:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="lname()[pri:3, instance:newpackage.Onboarding@4c70fda8]" name="lname" duration-ms="75" started-at="2018-01-12T18:31:40Z" finished-at="2018-01-12T18:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lname -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1001" started-at="2018-01-12T18:31:40Z" finished-at="2018-01-12T18:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="Dob()[pri:4, instance:newpackage.Onboarding@4c70fda8]" name="Dob" duration-ms="77" started-at="2018-01-12T18:31:41Z" finished-at="2018-01-12T18:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dob -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1000" started-at="2018-01-12T18:31:41Z" finished-at="2018-01-12T18:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="nextbutton()[pri:5, instance:newpackage.Onboarding@4c70fda8]" name="nextbutton" duration-ms="1885" started-at="2018-01-12T18:31:42Z" finished-at="2018-01-12T18:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextbutton -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1005" started-at="2018-01-12T18:31:44Z" finished-at="2018-01-12T18:31:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="inputsid()[pri:6, instance:newpackage.Onboarding@4c70fda8]" name="inputsid" duration-ms="59" started-at="2018-01-12T18:31:45Z" finished-at="2018-01-12T18:31:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputsid -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1001" started-at="2018-01-12T18:31:45Z" finished-at="2018-01-12T18:31:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="clicknext()[pri:7, instance:newpackage.Onboarding@4c70fda8]" name="clicknext" duration-ms="1903" started-at="2018-01-12T18:31:46Z" finished-at="2018-01-12T18:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicknext -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1004" started-at="2018-01-12T18:31:48Z" finished-at="2018-01-12T18:31:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="profilename()[pri:8, instance:newpackage.Onboarding@4c70fda8]" name="profilename" duration-ms="67" started-at="2018-01-12T18:31:49Z" finished-at="2018-01-12T18:31:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profilename -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1002" started-at="2018-01-12T18:31:49Z" finished-at="2018-01-12T18:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="email()[pri:9, instance:newpackage.Onboarding@4c70fda8]" name="email" duration-ms="96" started-at="2018-01-12T18:31:50Z" finished-at="2018-01-12T18:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1001" started-at="2018-01-12T18:31:50Z" finished-at="2018-01-12T18:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="password()[pri:10, instance:newpackage.Onboarding@4c70fda8]" name="password" duration-ms="73" started-at="2018-01-12T18:31:51Z" finished-at="2018-01-12T18:31:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1001" started-at="2018-01-12T18:31:52Z" finished-at="2018-01-12T18:31:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="confirmpassword()[pri:11, instance:newpackage.Onboarding@4c70fda8]" name="confirmpassword" duration-ms="71" started-at="2018-01-12T18:31:53Z" finished-at="2018-01-12T18:31:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmpassword -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1000" started-at="2018-01-12T18:31:53Z" finished-at="2018-01-12T18:31:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="addressl1()[pri:12, instance:newpackage.Onboarding@4c70fda8]" name="addressl1" duration-ms="81" started-at="2018-01-12T18:31:54Z" finished-at="2018-01-12T18:31:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addressl1 -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1002" started-at="2018-01-12T18:31:54Z" finished-at="2018-01-12T18:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="addressl2()[pri:13, instance:newpackage.Onboarding@4c70fda8]" name="addressl2" duration-ms="61" started-at="2018-01-12T18:31:55Z" finished-at="2018-01-12T18:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addressl2 -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1001" started-at="2018-01-12T18:31:55Z" finished-at="2018-01-12T18:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="state()[pri:14, instance:newpackage.Onboarding@4c70fda8]" name="state" duration-ms="137" started-at="2018-01-12T18:31:56Z" finished-at="2018-01-12T18:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- state -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1004" started-at="2018-01-12T18:31:56Z" finished-at="2018-01-12T18:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="city()[pri:15, instance:newpackage.Onboarding@4c70fda8]" name="city" duration-ms="69" started-at="2018-01-12T18:31:57Z" finished-at="2018-01-12T18:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- city -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1001" started-at="2018-01-12T18:31:57Z" finished-at="2018-01-12T18:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="zipcode()[pri:16, instance:newpackage.Onboarding@4c70fda8]" name="zipcode" duration-ms="60" started-at="2018-01-12T18:31:58Z" finished-at="2018-01-12T18:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zipcode -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1002" started-at="2018-01-12T18:31:58Z" finished-at="2018-01-12T18:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="phone()[pri:17, instance:newpackage.Onboarding@4c70fda8]" name="phone" duration-ms="85" started-at="2018-01-12T18:31:59Z" finished-at="2018-01-12T18:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phone -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1001" started-at="2018-01-12T18:31:59Z" finished-at="2018-01-12T18:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="Nextbutton()[pri:18, instance:newpackage.Onboarding@4c70fda8]" name="Nextbutton" duration-ms="1821" started-at="2018-01-12T18:32:00Z" finished-at="2018-01-12T18:32:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Nextbutton -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1004" started-at="2018-01-12T18:32:02Z" finished-at="2018-01-12T18:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="Geneticsconsent()[pri:19, instance:newpackage.Onboarding@4c70fda8]" name="Geneticsconsent" duration-ms="58" started-at="2018-01-12T18:32:03Z" finished-at="2018-01-12T18:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Geneticsconsent -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1005" started-at="2018-01-12T18:32:03Z" finished-at="2018-01-12T18:32:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="Policyconsent()[pri:20, instance:newpackage.Onboarding@4c70fda8]" name="Policyconsent" duration-ms="57" started-at="2018-01-12T18:32:04Z" finished-at="2018-01-12T18:32:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Policyconsent -->
+        <test-method status="PASS" signature="home()[pri:0, instance:newpackage.Onboarding@4c70fda8]" name="home" is-config="true" duration-ms="1000" started-at="2018-01-12T18:32:04Z" finished-at="2018-01-12T18:32:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+      </class> <!-- newpackage.Onboarding -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
