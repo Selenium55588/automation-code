@@ -32,6 +32,7 @@ public class Frontpage {
 		driver = new ChromeDriver();
 		driver.get(baseUrl);
 		driver.manage().window().maximize();
+		
 	}
 
 	@AfterMethod(enabled = true)
