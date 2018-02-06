@@ -30,8 +30,7 @@ public class Onboarding {
 	String emailaddress = "test@mailinator.com";
 	int SIDnumber = 1234;
 
-	  String baseUrl =
-	 "https://cloud.my.newtopia.com/uat_registration_v4?nors_id=a1H36000006xqAnEAI&rc=JPMCPILOT";
+	  String baseUrl = "";
 
 	Screener sof;
 
@@ -40,27 +39,7 @@ public class Onboarding {
 		
 		 driver = new ChromeDriver(); driver.get(baseUrl);
 		 driver.manage().window().maximize();
-		 /*
-		String baseUrl = "https://cloud.my.newtopia.com/uat_registration_v3?nors_id=a1H36000006wdnVEAQ&rc=JPMCPILOT";
-
-		DesiredCapabilities capability = new DesiredCapabilities();
-		capability.setCapability("browser", "Chrome");
-		capability.setCapability("browser_version", "64.0");
-		capability.setCapability("os", "OS X");
-		capability.setCapability("os_version", "High Sierra");
-		capability.setCapability("resolution", "1024x768");
-
-		capability.setCapability("browserstack.debug", "true");
-
-		capability.setCapability("build", "TestNG - Sample");
-		String s = capability.getBrowserName();
-		System.out.println(s);
-
-		driver = new RemoteWebDriver(
-				new URL("https://charanjitsingh3:nG8p4wgvp9XTxdw9iKVi@hub.browserstack.com/wd/hub"), capability);
-		driver.get(baseUrl);
-		driver.manage().window().maximize();
-		*/
+		
 	}
 
 	@AfterMethod(enabled = true)
