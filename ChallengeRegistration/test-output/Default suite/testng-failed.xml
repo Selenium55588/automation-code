@@ -19,7 +19,7 @@
           <include name="home"/>
           <include name="email"/>
           <include name="Policyconsent"/>
-          <include name="fname"/>
+          <include name="Nextbutton"/>
           <include name="inputsid"/>
           <include name="city"/>
         </methods>

@@ -20,9 +20,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.Screener;
 
-public class JPMC {
+public class Frontpage {
 	// To do - Ask Range of BMI values , randomly select check boxes for health options
-	String baseUrl = "https://cloud.my.newtopia.com/jpmcpilot";
+	String baseUrl = "";
 	//https://cloud.my.newtopia.com/jpmcpilot
 	public static WebDriver driver;
 	Screener sof;
@@ -32,6 +32,7 @@ public class JPMC {
 		driver = new ChromeDriver();
 		driver.get(baseUrl);
 		driver.manage().window().maximize();
+		
 	}
 
 	@AfterMethod(enabled = true)

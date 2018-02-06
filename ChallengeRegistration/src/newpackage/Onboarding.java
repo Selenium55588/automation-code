@@ -5,6 +5,7 @@ import java.util.Random;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -14,7 +15,6 @@ import pages.Registration1;
 import pages.Registration2;
 import pages.Registration3;
 import pages.Registration4;
-import newpackage.EnvironmentRemote;
 
 import pages.Screener;
 
@@ -25,21 +25,21 @@ public class Onboarding {
 	Registration3 r3;
 	Registration4 r4;
 	String Firstname = "Test_Fname_351";
-	String Lastname = "Test_Lname_351";
-	String DateofBirth = "02/05/1998";
+	String Lastname = "Test_Lname_134_0115";
+	String DateofBirth = "03/16/1998";
 	String emailaddress = "test@mailinator.com";
 	int SIDnumber = 1234;
 
-	String baseUrl = "https://cloud.my.newtopia.com/uat_registration_v3?nors_id=a1H36000006wdnVEAQ&rc=JPMCPILOT";
-	
+	  String baseUrl = "";
+
 	Screener sof;
 
 	@Test(priority = 1, enabled = true)
-	public void Setup() {
-	
-		driver = new ChromeDriver();
-		driver.get(baseUrl);
-		driver.manage().window().maximize();
+	public void Setup() throws Exception {
+		
+		 driver = new ChromeDriver(); driver.get(baseUrl);
+		 driver.manage().window().maximize();
+		
 	}
 
 	@AfterMethod(enabled = true)
@@ -47,7 +47,7 @@ public class Onboarding {
 		Thread.sleep(1000);
 	}
 
-	@AfterTest(enabled = false)
+	@AfterTest(enabled = true)
 	public void end() {
 		driver.quit();
 	}
@@ -158,16 +158,17 @@ public class Onboarding {
 		r3 = new Registration3(driver);
 		r3.clicknext();
 	}
+
 	@Test(priority = 19, enabled = true)
 	public void Geneticsconsent() {
 		r4 = new Registration4(driver);
 		r4.clickgeneticsconsent();
 	}
+
 	@Test(priority = 20, enabled = true)
 	public void Policyconsent() {
 		r4 = new Registration4(driver);
 		r4.policyconsent();
 	}
-	
 
 }
