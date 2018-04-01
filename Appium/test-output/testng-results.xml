@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="218837" started-at="2018-04-01T18:38:17Z" finished-at="2018-04-01T18:41:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="218837" started-at="2018-04-01T18:38:17Z" finished-at="2018-04-01T18:41:56Z">
+      <class name="appium_test.login_android">
+        <test-method status="PASS" signature="Onboarding()[pri:0, instance:appium_test.login_android@46d56d67]" name="Onboarding" is-config="true" duration-ms="39577" started-at="2018-04-01T18:37:37Z" finished-at="2018-04-01T18:38:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Onboarding -->
+        <test-method status="PASS" signature="login()[pri:0, instance:appium_test.login_android@46d56d67]" name="login" duration-ms="69229" started-at="2018-04-01T18:38:17Z" finished-at="2018-04-01T18:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="loginapp()[pri:0, instance:appium_test.login_android@46d56d67]" name="loginapp" duration-ms="149592" started-at="2018-04-01T18:39:26Z" finished-at="2018-04-01T18:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginapp -->
+        <test-method status="PASS" signature="q()[pri:0, instance:appium_test.login_android@46d56d67]" name="q" is-config="true" duration-ms="4065" started-at="2018-04-01T18:41:56Z" finished-at="2018-04-01T18:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- q -->
+      </class> <!-- appium_test.login_android -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
